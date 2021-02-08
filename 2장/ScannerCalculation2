@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ScannerCalculation2 {
+    public static void main(String[] args) {
+        float a, b;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextFloat();
+        b = sc.nextFloat();
+        /*만일 float가 아닌 double일때는 a = sc.nextDouble(); 이라고 해야합니다.*/
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+    }
+}
