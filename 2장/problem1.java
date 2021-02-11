@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/*하루 일당, 일주일 급여, 한달 월급 월급을 구하는 식.*/
+/*하루 일당, 일주일 급여, 한달 월급 월급을 구하는 식으로 문제를 만들어보았습니다.*/
 public class problem1 {
     public static void main(String[] args) {
        int wage;
